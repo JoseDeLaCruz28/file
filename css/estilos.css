@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2? family= Righteous & family= Work+Sans:wght@100;300;400;600;800 & display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Work Sans';
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  /*Nos permitirá deslizar cuando hagamos click en los links del menu*/
+  scroll-behavior: smooth;
+}
+
+/*Nuestro Menu*/
+.contenedor-header{
+  background: mediumslateblue;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.contenedor-header header{
+  max-width: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
