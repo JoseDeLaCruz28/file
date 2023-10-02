@@ -8,3 +8,8 @@ function mostrarOcultarMenu(){
         menuVisible = true;
     }
 }
+function seleccionar(){
+    //ocultará el menu una vez que seleccionemos una opcion
+    document.getElementById("nav").classList = "";
+    menuVisible = false;
+}
